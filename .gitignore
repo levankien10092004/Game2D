@@ -1,0 +1,19 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+Logs/
+MemoryCaptures/
+
+# VS / C#
+*.csproj
+*.sln
+*.user
+*.pidb
+*.unityproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db

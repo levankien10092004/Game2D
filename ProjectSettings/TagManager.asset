@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Dat
+  - Ground
+  - Trap
+  - EnemyFly
+  - dan
+  - Heal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Ground
+  - Player
+  - EnemyFly
+  - Trap
+  - Finish
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1517873271
+    locked: 0
+  - name: Map
+    uniqueID: 389265195
+    locked: 0
+  - name: Backgroudmap
+    uniqueID: 791098425
+    locked: 0
+  - name: Trap
+    uniqueID: 418617827
+    locked: 0
+  - name: Quai
+    uniqueID: 73904007
+    locked: 0
+  - name: ruong
+    uniqueID: 4019492075
+    locked: 0
+  - name: mapan
+    uniqueID: 2546690707
+    locked: 0
+  - name: Coin
+    uniqueID: 2940477797
+    locked: 0
+  - name: Player
+    uniqueID: 3947483505
+    locked: 0
+  - name: Finish
+    uniqueID: 2708781525
+    locked: 0
