@@ -173,7 +173,11 @@ public class Quai2 : MonoBehaviour
     protected void Die()
     {
         gameObject.SetActive(false);
-        SpawnObject(coinPrefab);
+        for(int i=0; i < IntCoin; i++)
+        {
+            SpawnObject(coinPrefab);
+        }
+        
         float dropRate = Random.value; // 0.0 → 1.0
         if (dropRate <= healDropRate)
         {

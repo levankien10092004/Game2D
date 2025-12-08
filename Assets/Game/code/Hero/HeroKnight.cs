@@ -325,6 +325,7 @@ public class HeroKnight : MonoBehaviour
                 enemy.GetComponent<EnemyThrower>()?.TakeDamage(attackDamage);
                 enemy.GetComponent<EnemyFlyAttack>()?.TakeDamage(attackDamage);
                 enemy.GetComponent<EnemyAtaackrun>()?.TakeDamage(attackDamage);
+                enemy.GetComponent<Boss1>()?.TakeDamage(attackDamage);
             }
         }
 

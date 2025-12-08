@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 5247591967853907416}
   - component: {fileID: 3493830927299112831}
   - component: {fileID: 865516906813331213}
-  - component: {fileID: 6177235135957334911}
+  - component: {fileID: 7453059481774511738}
   m_Layer: 6
   m_Name: DarkWolf_2d_Grafics
   m_TagString: Enemy
@@ -299,7 +299,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6177235135957334911
+--- !u!114 &7453059481774511738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,26 +308,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1424383095653874445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a704564ece46641ac9d4f94215ce78, type: 3}
+  m_Script: {fileID: 11500000, guid: 90bf94a73b2eee9478daa1df847ca4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRight: 0
+  isRight: 1
   speed: 2
   moveDistance: 4
   health: 100
   healthnow: 0
-  quai: {fileID: 2262688037315510526}
+  quai: {fileID: 0}
   Layer: {fileID: 0}
   intDam: 0
   attackDistan: 1.6
-  animator: {fileID: 5247591967853907416}
-  attackPoin: {fileID: 1492381796530554684}
+  animator: {fileID: 0}
+  attackPoin: {fileID: 0}
   attackDam: 5
-  attackRadius: 1.5
+  attackRadius: 1
   attackCooldown: 1.5
   attackLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
+  coinPrefab: {fileID: 0}
+  healPrefab: {fileID: 0}
+  IntCoin: 10
+  healDropRate: 0.2
+  Poinend: {fileID: 0}
 --- !u!1 &2541984794037179672
 GameObject:
   m_ObjectHideFlags: 0
