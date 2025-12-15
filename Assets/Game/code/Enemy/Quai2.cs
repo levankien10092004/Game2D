@@ -78,7 +78,7 @@ public class Quai2 : MonoBehaviour
             if (Vector2.Distance(transform.position, Layer.position) > attackDistan)
             {
                 animator.SetBool("Attack1", false);
-                animator.SetBool("idea", false);
+                animator.SetBool("idea", true);
                 transform.position = Vector2.MoveTowards(transform.position, Layer.position, chaseSpeed * Time.deltaTime);
                 isAttacking = false;
             }

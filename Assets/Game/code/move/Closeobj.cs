@@ -12,7 +12,7 @@ public class Closeobj : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.J))
         {
             OpenChest();
         }

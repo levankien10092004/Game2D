@@ -320,17 +320,19 @@ public class HeroKnight : MonoBehaviour
             if (angle < attackAngle / 2f)
             {
                 enemy.GetComponent<Quai2>()?.TakeDamage(attackDamage);
-                enemy.GetComponent<QuaithuongDC>()?.TakeDamage(attackDamage);
+                enemy.GetComponent<QuaithuongDC>()?.TakeDamage(attackDamage); 
                 enemy.GetComponent<EnemyFly>()?.TakeDamage(attackDamage);
-                enemy.GetComponent<EnemyThrower>()?.TakeDamage(attackDamage);
+                enemy.GetComponent<EnemyThrower>()?.TakeDamage(attackDamage);  
                 enemy.GetComponent<EnemyFlyAttack>()?.TakeDamage(attackDamage);
                 enemy.GetComponent<EnemyAtaackrun>()?.TakeDamage(attackDamage);
+                enemy.GetComponent<EnemyFlyThrower>()?.TakeDamage(attackDamage); 
                 enemy.GetComponent<Boss1>()?.TakeDamage(attackDamage);
-            }
-        }
+                enemy.GetComponent<Boss2>()?.TakeDamage(attackDamage);
+            } 
+        } 
 
         isAttacking = false;
-    }
+    }    
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
