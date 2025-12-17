@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class EnemyFlyThrower : MonoBehaviour
 {
@@ -96,7 +97,9 @@ public class EnemyFlyThrower : MonoBehaviour
     void ThrowBullet()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-        bullet.GetComponent<BulletEnemy>().SetTarget(player.position);   // người chơi là mục tiêu
+        //     bullet.transform.rotation = Quaternion.Euler(0, 0, -90);
+
+        bullet.GetComponent<BulletEnemy>().SetTarget(player.position);
     }
 
     // --- Giữ nguyên logic Flip ---

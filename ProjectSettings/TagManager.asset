@@ -11,6 +11,7 @@ TagManager:
   - EnemyFly
   - dan
   - Heal
+  - Audio
   layers:
   - Default
   - TransparentFX

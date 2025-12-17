@@ -31,6 +31,8 @@ public class HeroKnight : MonoBehaviour
     private float m_delayToIdle = 0.0f;
     private float m_rollDuration = 8.0f / 14.0f;
     private float m_rollCurrentTime;
+    private float rollCooldown = 0.8f; // thời gian hồi lướt
+    private float lastRollTime = -10f;
 
     public HPNhanVat hp;
     [SerializeField] float mauht;
@@ -46,10 +48,12 @@ public class HeroKnight : MonoBehaviour
     private bool isAttacking = false;
 
     [SerializeField] GameObject menu;
+
+    AudioManager audioManager;
     void Start()
     {
         m_animator = GetComponent<Animator>();
-        m_body2d = GetComponent<Rigidbody2D>();
+        m_body2d = GetComponent<Rigidbody2D>(); 
 
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_HeroKnight>();
         m_wallSensorR1 = transform.Find("WallSensor_R1").GetComponent<Sensor_HeroKnight>();
@@ -60,6 +64,10 @@ public class HeroKnight : MonoBehaviour
         attackDamage = PlayerPrefs.GetInt("PlayerDamage", 10);
         mautd = PlayerPrefs.GetInt("PlayerHealth", 100);
         mau();
+    }
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -123,6 +131,7 @@ public class HeroKnight : MonoBehaviour
         //Attack
         if( Input.GetKeyDown("j") && m_timeSinceAttack > 0.25f && !m_rolling)
         {
+            audioManager.PlaySFX(audioManager.Attack);
             m_currentAttack++;
 
             // Loop back to one after third attack
@@ -152,8 +161,9 @@ public class HeroKnight : MonoBehaviour
             m_animator.SetBool("IdleBlock", false);
 
         // Roll
-        else if (Input.GetKeyDown("l") && !m_rolling)
+        else if (Input.GetKeyDown("l") && !m_rolling && Time.time >= lastRollTime + rollCooldown)
         {
+            lastRollTime = Time.time;
             StartCoroutine(RollForward());
         }
 
@@ -163,6 +173,7 @@ public class HeroKnight : MonoBehaviour
         //Jump
         else if (Input.GetKeyDown("k") && m_grounded && !m_rolling) 
         {
+            audioManager.PlaySFX(audioManager.Jump);
             m_animator.SetTrigger("Jump");
             m_grounded = false;
             m_animator.SetBool("Grounded", m_grounded);
@@ -242,6 +253,7 @@ public class HeroKnight : MonoBehaviour
             {
                 menu.SetActive(true);
                 Time.timeScale = 0;
+                audioManager.PlaySFX(audioManager.Lost);
             }
         }
     }
@@ -263,7 +275,7 @@ public class HeroKnight : MonoBehaviour
         }
         if (collision.CompareTag("Heal"))
         {
-            Heal(10);
+            Heal(25);
             Destroy(collision.gameObject); 
         }
     }
@@ -328,6 +340,7 @@ public class HeroKnight : MonoBehaviour
                 enemy.GetComponent<EnemyFlyThrower>()?.TakeDamage(attackDamage); 
                 enemy.GetComponent<Boss1>()?.TakeDamage(attackDamage);
                 enemy.GetComponent<Boss2>()?.TakeDamage(attackDamage);
+                enemy.GetComponent<Boss3>()?.TakeDamage(attackDamage);
             } 
         } 
 

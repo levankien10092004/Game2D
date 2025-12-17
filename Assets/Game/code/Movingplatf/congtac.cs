@@ -2,16 +2,21 @@
 
 public class congtac : MonoBehaviour
 {
+    [Header("Tham chiếu")]
     public Thangmay platform;
+
+    [Header("Thiết lập")]
     public bool goToEnd = true; // true = đi tới end, false = quay về start
+    public bool oneTimeUse = false; // bật nếu công tắc chỉ dùng 1 lần
 
     private bool playerInRange = false;
     private bool isActivated = false;
 
     void Update()
     {
-        // Player đứng trong vùng + bấm J + chưa kích hoạt
-        if (playerInRange && !isActivated && Input.GetKeyDown(KeyCode.J))
+        if (!playerInRange) return;
+
+        if (Input.GetKeyDown(KeyCode.J))
         {
             ActivateSwitch();
         }
@@ -35,7 +40,14 @@ public class congtac : MonoBehaviour
 
     void ActivateSwitch()
     {
+        if (oneTimeUse && isActivated) return;
+
         isActivated = true;
+
+        if (platform == null)
+        {
+            return;
+        }
 
         if (goToEnd)
             platform.SwitchToEnd();

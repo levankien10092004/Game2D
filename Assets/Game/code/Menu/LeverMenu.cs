@@ -8,6 +8,8 @@ public class LeverMenu : MonoBehaviour
 {
     public Button[] buttons;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         int unlockedLevel = PlayerPrefs.GetInt("unlockedLevel", 1);
@@ -23,11 +25,13 @@ public class LeverMenu : MonoBehaviour
         {
             buttons[i].interactable = true;
         }
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     public void OpenLever(int levelId)
     {
         string leverName = "LV" + levelId;
         SceneManager.LoadScene(leverName);
+        audioManager.PlaySFX(audioManager.Chose);
     }
 }

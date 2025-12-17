@@ -20,13 +20,19 @@ public class UpgradeManager : MonoBehaviour
     public TextMeshProUGUI minusHpText;
     public TextMeshProUGUI minusATText;
     public GameObject ErrorText;
+
+    AudioManager AudioManager;
     private void Start()
     {
         LoadStats();
         UpdateUI();
       
     }
-
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void LoadStats()
     {
         damage = PlayerPrefs.GetInt("PlayerDamage", 10);
@@ -76,6 +82,7 @@ public class UpgradeManager : MonoBehaviour
         {
             StartCoroutine(Showerror());
         }
+        audioManager.PlaySFX(audioManager.Chose);
     }
 
     public void UpgradeHealth()
@@ -93,6 +100,7 @@ public class UpgradeManager : MonoBehaviour
         else {
             StartCoroutine(Showerror());
         }
+        audioManager.PlaySFX(audioManager.Chose);
     }
     IEnumerator ShowMinusCoinHP(int amount,int health)
     {

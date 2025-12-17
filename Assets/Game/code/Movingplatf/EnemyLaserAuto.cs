@@ -14,7 +14,10 @@ public class EnemyLaserAuto : MonoBehaviour
     public float cooldownTime = 1f;  // thời gian nghỉ giữa mỗi phát
 
     private LineRenderer lr;
+    
+  
 
+  
     void Start()
     {
         lr = GetComponent<LineRenderer>();
@@ -31,11 +34,13 @@ public class EnemyLaserAuto : MonoBehaviour
         // Bắt đầu auto fire
         StartCoroutine(LaserRoutine());
     }
-
+    
+    
     IEnumerator LaserRoutine()
     {
         while (true)
         {
+           
             // ★ 1. BẮN LASER
             lr.enabled = true;
 

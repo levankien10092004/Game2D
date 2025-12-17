@@ -14,12 +14,17 @@ public class ChestController : MonoBehaviour
     private bool playerInRange = false;
     private PlayerCoins playerCoins;
 
+    AudioManager audioManager;
     void Update()
     {
-        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.J))
         {
             OpenChest();
         }
+    }
+    private void Awake()
+    {
+        audioManager= GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +33,6 @@ public class ChestController : MonoBehaviour
         if (playerCoins != null)
         {
             playerInRange = true;
-            Debug.Log("Nhấn E để mở rương");
         }
     }
 
@@ -44,6 +48,8 @@ public class ChestController : MonoBehaviour
     {
         isOpened = true;
         animator.SetTrigger("Open");
+        audioManager.PlaySFX(audioManager.Ruong);
+      
 
         int randomCoin = Random.Range(minCoins, maxCoins + 1);
 

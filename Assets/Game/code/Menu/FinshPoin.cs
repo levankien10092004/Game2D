@@ -8,12 +8,20 @@ public class FinshPoin : MonoBehaviour
 {
     public GameObject victory;
 
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             collision.GetComponent<PlayerCoins>()?.SaveCoins();
+            audioManager.PlaySFX(audioManager.VicTory);
             victory.gameObject.SetActive(true);
+            UnlockNewLevel();
             Time.timeScale = 0f;
           
         }
@@ -21,8 +29,9 @@ public class FinshPoin : MonoBehaviour
     public void OnNextLevelButton()
     {
         Time.timeScale = 1f;
-        UnlockNewLevel();
+        
         SceneController.instance.NextLevel();
+        audioManager.PlaySFX(audioManager.Chose);
     }
 
     void UnlockNewLevel()
@@ -40,10 +49,12 @@ public class FinshPoin : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
+        audioManager.PlaySFX(audioManager.Chose);
     }
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+        audioManager.PlaySFX(audioManager.Chose);
     }
 }
