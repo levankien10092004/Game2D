@@ -238,6 +238,7 @@ public class HeroKnight : MonoBehaviour
     {
         mauht -= mat;
         hp.capNhatMau(mauht, mautd);
+        audioManager.PlaySFX(audioManager.Hurt);
         m_animator.SetTrigger("Hurt");
 
         if (mauht <= 0)

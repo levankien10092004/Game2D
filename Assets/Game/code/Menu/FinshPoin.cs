@@ -31,6 +31,7 @@ public class FinshPoin : MonoBehaviour
         Time.timeScale = 1f;
         
         SceneController.instance.NextLevel();
+        audioManager.StopSFX();
         audioManager.PlaySFX(audioManager.Chose);
     }
 
@@ -49,12 +50,14 @@ public class FinshPoin : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
+        audioManager.StopSFX();
         audioManager.PlaySFX(audioManager.Chose);
     }
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+        audioManager.StopSFX();
         audioManager.PlaySFX(audioManager.Chose);
     }
 }
