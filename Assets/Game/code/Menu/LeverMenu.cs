@@ -12,26 +12,46 @@ public class LeverMenu : MonoBehaviour
 
     private void Awake()
     {
+        // CHỈ CHO PHÉP LevelMenu chạy trong Menu (scene 0)
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         int unlockedLevel = PlayerPrefs.GetInt("unlockedLevel", 1);
 
-        // Tắt tất cả button
         for (int i = 0; i < buttons.Length; i++)
-        {
             buttons[i].interactable = false;
-        }
 
-        // Bật đúng số lượng level đã mở
         for (int i = 0; i < unlockedLevel && i < buttons.Length; i++)
-        {
             buttons[i].interactable = true;
-        }
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio")
+            .GetComponent<AudioManager>();
     }
 
+
+    //public void OpenLever(int levelId)
+    //{
+    //    string leverName = "LV" + levelId;
+    //    SceneManager.LoadScene(leverName);
+    //    audioManager.PlaySFX(audioManager.Chose);
+    //}
     public void OpenLever(int levelId)
     {
-        string leverName = "LV" + levelId;
-        SceneManager.LoadScene(leverName);
         audioManager.PlaySFX(audioManager.Chose);
+
+        // Nếu là LV1 và CHƯA xem Intro
+        if (levelId == 1 && PlayerPrefs.GetInt("HasSeenIntro", 0) == 0)
+        {
+            SceneManager.LoadScene("IntroScene");
+            return;
+        }
+
+        // Các level còn lại hoặc đã xem Intro
+        string levelName = "LV" + levelId;
+        SceneManager.LoadScene(levelName);
     }
+
 }

@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\endingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\endingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|c:\\users\\admin\\tailieuhoctap\\ki_8\\pt_game\\code\\game2d\\assets\\game\\code\\menu\\endingdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\endingdialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|c:\\users\\admin\\tailieuhoctap\\ki_8\\pt_game\\code\\game2d\\assets\\game\\code\\menu\\endfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\endfadein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\finshpoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\finshpoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\introcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\introcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\fadetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\fadetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\levermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\levermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\code\\hero\\heroknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\heroknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\assets\\game\\map\\fitbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA4805D7-4648-5AE3-EA85-EC4FB6A77D9D}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\map\\fitbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EndingDialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndingDialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\EndingDialogueManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndingDialogueManager.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\EndingDialogueManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:43:35.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndFadeIn.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndFadeIn.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\EndFadeIn.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndFadeIn.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\EndFadeIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:43:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinshPoin.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EndingCutscene.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndingCutscene.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\EndingCutscene.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\EndingCutscene.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\EndingCutscene.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:43:26.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA/wBcAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FadeTransition.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\FadeTransition.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\FadeTransition.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\FadeTransition.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\FadeTransition.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA2wDAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FitBackground.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\Map\\FitBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Map\\FitBackground.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\Map\\FitBackground.cs",
+              "RelativeToolTip": "Assets\\Game\\Map\\FitBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HeroKnight.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAowGMBAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntroCutscene.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\IntroCutscene.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\IntroCutscene.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\IntroCutscene.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\IntroCutscene.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwC8AAAAYAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeverMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wB8AAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-12-18T15:43:26.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventInterfaces.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventInterfaces.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:20:00.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StandaloneInputModule.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "ToolTip": "C:\\Users\\Admin\\tailieuhoctap\\Ki_8\\Pt_game\\code\\Game2D\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\StandaloneInputModule.cs",
+              "ViewState": "AgIAAHoCAAAAAAAAAAAswJcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:18:00.138Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
