@@ -203,7 +203,7 @@ public class Boss3 : MonoBehaviour
 
         if (Random.value <= healDropRate)
             SpawnObject(healPrefab);
-
+      
         victory.gameObject.SetActive(true);
     }
 

@@ -40,6 +40,7 @@ public class LeverMenu : MonoBehaviour
     //}
     public void OpenLever(int levelId)
     {
+
         audioManager.PlaySFX(audioManager.Chose);
 
         // Nếu là LV1 và CHƯA xem Intro
@@ -52,6 +53,14 @@ public class LeverMenu : MonoBehaviour
         // Các level còn lại hoặc đã xem Intro
         string levelName = "LV" + levelId;
         SceneManager.LoadScene(levelName);
+
+
+        audioManager.PlaySFX(audioManager.Chose);
+        string leverName = "LV" + levelId;
+        SceneManager.LoadScene(leverName);
+       
+        
+
     }
 
 }
