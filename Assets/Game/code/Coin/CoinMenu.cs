@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CoinMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI coinText;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        UpdateCoin();
+    }
+   
+    void UpdateCoin()
+    {
+        int coins = PlayerPrefs.GetInt("PlayerCoins", 0);
+        coinText.text = coins.ToString();
     }
 }

@@ -30,8 +30,11 @@ public class LeverMenu : MonoBehaviour
 
     public void OpenLever(int levelId)
     {
+
+        audioManager.PlaySFX(audioManager.Chose);
         string leverName = "LV" + levelId;
         SceneManager.LoadScene(leverName);
-        audioManager.PlaySFX(audioManager.Chose);
+       
+        
     }
 }

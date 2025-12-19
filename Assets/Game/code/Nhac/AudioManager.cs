@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -23,6 +24,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip Lost;
     public AudioClip Hurt;
 
+    [Header("Music")]
+    public AudioClip MenuMusic;
+    public AudioClip GameMusic;
+
+
     private void Awake()
     {
         // Singleton
@@ -37,13 +43,38 @@ public class AudioManager : MonoBehaviour
         LoadVolume(); // 🔥 LOAD VOLUME NGAY
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        LoadVolume();
-        musicSource.clip = BackGround;
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "MainMenu")
+        {
+            PlayMusic(MenuMusic);
+        }
+        else
+        {
+            PlayMusic(GameMusic); // hoặc StopMusic() nếu không muốn nhạc
+        }
+    }
+
+    void PlayMusic(AudioClip clip)
+    {
+        if (musicSource.clip == clip) return;
+
+        musicSource.Stop();
+        musicSource.clip = clip;
         musicSource.loop = true;
         musicSource.Play();
     }
+
 
     void LoadVolume()
     {
@@ -62,6 +93,10 @@ public class AudioManager : MonoBehaviour
     public void StopSFX()
     {
         sfxSource.Stop();
+    }
+    public void StopMusic()
+    {
+        musicSource.Stop();
     }
 
 }

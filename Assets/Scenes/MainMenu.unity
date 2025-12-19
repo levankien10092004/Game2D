@@ -537,6 +537,8 @@ MonoBehaviour:
   VicTory: {fileID: 8300000, guid: d2d89216020cf154b9bed1daa2bb499b, type: 3}
   Lost: {fileID: 8300000, guid: b4b9b5e79f80ab943a82bca98fcb0c84, type: 3}
   Hurt: {fileID: 8300000, guid: ae753e528cf8458408bb216d1ca92847, type: 3}
+  MenuMusic: {fileID: 8300000, guid: 8c93ffaa5a36bf74c98ed262f1dca18d, type: 3}
+  GameMusic: {fileID: 8300000, guid: c55c6962fde5add4291b267995cf47e9, type: 3}
 --- !u!4 &339438760
 Transform:
   m_ObjectHideFlags: 0
@@ -1928,7 +1930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 466.59717, y: -5.0901527}
+  m_AnchoredPosition: {x: 466.59717, y: -5.09021}
   m_SizeDelta: {x: -1417.041, y: -556.451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803916254
@@ -2852,7 +2854,7 @@ AudioSource:
   m_GameObject: {fileID: 1128501695}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8832951337600055691, guid: 2eac542d49bc781438afb9231e825fa4, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -4236,7 +4238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397808368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f11dfa65333a05448f7096a06bf47d6, type: 3}
+  m_Script: {fileID: 11500000, guid: 4729334bb21b43c4b83c052b6d746d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 632335275}
@@ -5307,7 +5309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1596148279
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6543,7 +6545,7 @@ AudioSource:
   m_GameObject: {fileID: 2053770887}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 1391029043694994182, guid: 2eac542d49bc781438afb9231e825fa4, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

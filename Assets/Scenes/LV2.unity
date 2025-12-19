@@ -14183,7 +14183,7 @@ MonoBehaviour:
   Map:
     serializedVersion: 2
     m_Bits: 128
-  bulletPrefab: {fileID: 472044572214915960, guid: f1fe085759441094c95126dd5ffabc3b, type: 3}
+  bulletPrefab: {fileID: 2722218672008155524, guid: 2839b82dea009da498a079b7354991fc, type: 3}
   firePoint: {fileID: 1516358497}
   coinPrefab: {fileID: 5268238724281932897, guid: d19beca1ab59b4742a66454950343a3a, type: 3}
   healPrefab: {fileID: 7779407784775521534, guid: 2c6f6a3341cf1504f8027ef9216a85e1, type: 3}

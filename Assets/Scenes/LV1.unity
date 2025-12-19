@@ -195,6 +195,8 @@ MonoBehaviour:
   VicTory: {fileID: 8300000, guid: d2d89216020cf154b9bed1daa2bb499b, type: 3}
   Lost: {fileID: 8300000, guid: b4b9b5e79f80ab943a82bca98fcb0c84, type: 3}
   Hurt: {fileID: 8300000, guid: e1b8a9ac90f3a3d439d64de67734e9e6, type: 3}
+  MenuMusic: {fileID: 8300000, guid: 8c93ffaa5a36bf74c98ed262f1dca18d, type: 3}
+  GameMusic: {fileID: 8300000, guid: c55c6962fde5add4291b267995cf47e9, type: 3}
 --- !u!4 &13293848
 Transform:
   m_ObjectHideFlags: 0
