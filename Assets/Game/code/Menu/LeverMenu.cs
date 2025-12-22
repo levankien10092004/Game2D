@@ -12,7 +12,7 @@ public class LeverMenu : MonoBehaviour
 
     private void Awake()
     {
-        int unlockedLevel = PlayerPrefs.GetInt("unlockedLevel", 1);
+        int unlockedLevel = PlayerPrefs.GetInt("unlockedLevel", 2);
 
         // Tắt tất cả button
         for (int i = 0; i < buttons.Length; i++)
@@ -21,7 +21,7 @@ public class LeverMenu : MonoBehaviour
         }
 
         // Bật đúng số lượng level đã mở
-        for (int i = 0; i < unlockedLevel && i < buttons.Length; i++)
+        for (int i = 0; i < unlockedLevel-1 && i < buttons.Length; i++)
         {
             buttons[i].interactable = true;
         }

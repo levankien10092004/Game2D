@@ -1,52 +1,56 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class EnemyFlyThrower : MonoBehaviour
 {
-    [Header("Cấu hình ném")]
-    public GameObject bulletPrefab;     // Prefab đạn
-    public Transform firePoint;         // Vị trí tạo đạn
-    public float attackRange = 10f;      // Khoảng cách tấn công
-    public float attackCooldown = 2f;   // Thời gian hồi chiêu
+    [Header("Bắn đạn")]
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float attackRange = 10f;
+    public float attackCooldown = 2f;
 
-    private float timer;
+    private float lastAttackTime;
+    private bool isShooting = false;
+
     [SerializeField] private Transform player;
     private bool facingRight = false;
-    protected Rigidbody2D rb;
+    private Rigidbody2D rb;
 
+    [Header("Animator")]
     public Animator animator;
 
-    [Header("Trạng thái máu")]
+    [Header("Máu")]
     public float health = 100;
     public float healthnow;
     public HPEnemy quai;
-    [Header("Qua")]
+
+    [Header("Rơi đồ")]
     public GameObject coinPrefab;
     public GameObject healPrefab;
     public int IntCoin = 5;
     public float healDropRate = 0.2f;
 
-    private void Start()
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        timer = attackCooldown;
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
         if (quai == null)
             quai = GetComponentInChildren<HPEnemy>();
 
+        healthnow = health;
         if (quai != null)
-            mau();
+            quai.capNhatMau(healthnow, health);
+
+        if (animator == null)
+            animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    void Update()
     {
-        if (player == null) return;
+        if (player == null || isShooting) return;
 
-        timer -= Time.deltaTime;
-
-        // --- Thêm: quay mặt về phía người chơi ---
+        // Quay mặt
         if (player.position.x > transform.position.x && !facingRight)
             Flip();
         else if (player.position.x < transform.position.x && facingRight)
@@ -54,55 +58,50 @@ public class EnemyFlyThrower : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
+        // ==== LOGIC GIỐNG BOSS2 ====
         if (distance <= attackRange)
         {
-            // Chạy animation tấn công
-            if (animator != null) {
-                animator.SetBool("Attack", true);
-                    }
-
-
-            // Bắn đạn nếu cooldown xong
-            if (timer <= 0f)
+            if (Time.time > lastAttackTime + attackCooldown)
             {
-                ThrowBullet();
-                timer = attackCooldown;
+                animator.SetBool("Attack", true);
+                
+                lastAttackTime = Time.time;
             }
         }
-        else
-        {
-            animator.SetBool("Attack", false);
-        }
-
     }
+
+    // ===== BẮN ĐẠN =====
+    void Shoot()
+    {
+        isShooting = true;
+
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity); 
+        // bullet.transform.rotation = Quaternion.Euler(0, 0, -90);
+        bullet.GetComponent<BulletEnemy>().SetTarget(player.position);
+        StartCoroutine(StopShoot());
+    }
+
+    IEnumerator StopShoot()
+    {
+        yield return new WaitForSeconds(1.2f); // thời gian animation attack
+        isShooting = false;
+        animator.SetBool("Attack", false);
+    }
+
+    // ===== NHẬN DAMAGE =====
     public void TakeDamage(int damPlayer)
     {
         healthnow -= damPlayer;
         if (quai != null)
             quai.capNhatMau(healthnow, health);
+
         if (healthnow <= 0)
-        { 
-            animator.SetTrigger("Dead"); 
+        {
+            animator.SetTrigger("Dead");
             Die();
         }
-
-
-    }
-    public void mau()
-    {
-        healthnow = health;
-        quai.capNhatMau(healthnow, health);
     }
 
-    void ThrowBullet()
-    {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-        //     bullet.transform.rotation = Quaternion.Euler(0, 0, -90);
-
-        bullet.GetComponent<BulletEnemy>().SetTarget(player.position);
-    }
-
-    // --- Giữ nguyên logic Flip ---
     void Flip()
     {
         facingRight = !facingRight;
@@ -110,40 +109,35 @@ public class EnemyFlyThrower : MonoBehaviour
         scale.x *= -1;
         transform.localScale = scale;
     }
-    private void OnDrawGizmosSelected()
-    {
-        if (firePoint == null) return;
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-
-        // Optional: hiển thị hướng firePoint
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(firePoint.position, firePoint.position + Vector3.right * (facingRight ? 1 : -1));
-    }
     protected void Die()
     {
         gameObject.SetActive(false);
+
         for (int i = 0; i < IntCoin; i++)
-        {
             SpawnObject(coinPrefab);
-        }
-        float dropRate = Random.value; // 0.0 → 1.0
-        if (dropRate <= healDropRate)
-        {
+
+        if (Random.value <= healDropRate)
             SpawnObject(healPrefab);
-        }
     }
+
     void SpawnObject(GameObject prefab)
     {
-        GameObject obj = Instantiate(prefab, transform.position, Quaternion.identity);
+        if (prefab == null) return;
 
-        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-        if (rb != null)
+        GameObject obj = Instantiate(prefab, transform.position, Quaternion.identity);
+        Rigidbody2D rb2 = obj.GetComponent<Rigidbody2D>();
+
+        if (rb2 != null)
         {
-            Vector2 randomForce = new Vector2(Random.Range(-2f, 2f), Random.Range(2f, 4f));
-            rb.AddForce(randomForce, ForceMode2D.Impulse);
+            Vector2 force = new Vector2(Random.Range(-2f, 2f), Random.Range(2f, 4f));
+            rb2.AddForce(force, ForceMode2D.Impulse);
         }
     }
-}
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+}

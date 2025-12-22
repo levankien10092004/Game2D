@@ -6,7 +6,7 @@ public class Openmove : MonoBehaviour
 {
     public Animator animator;
 
-    public Transform ruong;       // Điểm spawn
+    public Transform Point;       // Điểm spawn
 
     private bool isOpened = false;
     private bool playerInRange = false;
@@ -14,7 +14,7 @@ public class Openmove : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && !isOpened && Input.GetKeyDown(KeyCode.J))
         {
             OpenChest();
         }
@@ -43,7 +43,7 @@ public class Openmove : MonoBehaviour
     {
         isOpened = true;
         animator.SetTrigger("run");
-        ruong.gameObject.SetActive(true);
+        Point.gameObject.SetActive(true);
 
         
     }

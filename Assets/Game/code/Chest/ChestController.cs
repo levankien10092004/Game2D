@@ -14,6 +14,13 @@ public class ChestController : MonoBehaviour
     private bool playerInRange = false;
     private PlayerCoins playerCoins;
 
+    public ChestType chestType;
+    public enum ChestType
+    {
+        Chest1,
+        Chest2
+    }
+
     AudioManager audioManager;
     void Update()
     {
@@ -49,7 +56,8 @@ public class ChestController : MonoBehaviour
         isOpened = true;
         animator.SetTrigger("Open");
         audioManager.PlaySFX(audioManager.Ruong);
-      
+        ChestManager.instance.OpenChest(chestType);
+
 
         int randomCoin = Random.Range(minCoins, maxCoins + 1);
 

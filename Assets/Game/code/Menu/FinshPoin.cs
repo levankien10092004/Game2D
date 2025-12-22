@@ -9,6 +9,11 @@ public class FinshPoin : MonoBehaviour
     public GameObject victory;
 
     AudioManager audioManager;
+
+    [Header("Star UI")]
+    public GameObject star1;
+    public GameObject star2;
+    public GameObject star3;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -21,6 +26,7 @@ public class FinshPoin : MonoBehaviour
             collision.GetComponent<PlayerCoins>()?.SaveCoins();
             audioManager.PlaySFX(audioManager.VicTory);
             victory.gameObject.SetActive(true);
+            ShowStars();
             UnlockNewLevel();
             Time.timeScale = 0f;
           
@@ -59,5 +65,13 @@ public class FinshPoin : MonoBehaviour
         Time.timeScale = 1;
         audioManager.StopSFX();
         audioManager.PlaySFX(audioManager.Chose);
+    }
+    void ShowStars()
+    {
+        int stars = ChestManager.instance.GetStarResult();
+
+        star1.SetActive(stars >= 1);
+        star2.SetActive(stars >= 2);
+        star3.SetActive(stars >= 3);
     }
 }

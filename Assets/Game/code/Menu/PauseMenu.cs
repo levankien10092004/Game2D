@@ -20,6 +20,7 @@ public class PauseMenu : MonoBehaviour
     public void Home()
     {
         audioManager.PlaySFX(audioManager.Chose);
+        audioManager.StopSFX();
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
        
@@ -27,12 +28,14 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         audioManager.PlaySFX(audioManager.Chose);
+
         menu.SetActive(false);
         Time.timeScale = 1;
     }
     public void Restart()
     {
         audioManager.PlaySFX(audioManager.Chose);
+        audioManager.StopSFX();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }

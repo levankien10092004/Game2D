@@ -10,6 +10,15 @@ public class MainMenu : MonoBehaviour
     {
         audioManager =GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
+    private void Update()
+    {
+        // Nhấn ESC để thoát game
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OutGame();
+        }
+    }
+    
     public void PlayGame()
     {
         SceneManager.LoadSceneAsync(1);
