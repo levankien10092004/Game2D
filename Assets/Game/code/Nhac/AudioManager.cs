@@ -29,6 +29,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip GameMusic;
 
 
+
+
     private void Awake()
     {
         // Singleton
@@ -55,7 +57,7 @@ public class AudioManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "MainMenu")
+      if(scene.name == "MainMenu")
         {
             PlayMusic(MenuMusic);
         }

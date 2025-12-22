@@ -14322,7 +14322,7 @@ MonoBehaviour:
   isRight: 0
   speed: 2
   moveDistance: 7
-  health: 200
+  health: 300
   healthnow: 0
   quai: {fileID: 1160571163}
   attackDistance: 5
@@ -14330,8 +14330,8 @@ MonoBehaviour:
   isRange: 0
   detectRange: 10
   animator: {fileID: 459150792}
-  attackCooldown: 2
-  collisionDamage: 15
+  attackCooldown: 3
+  collisionDamage: 10
   pounceForce: 8
   Map:
     serializedVersion: 2
