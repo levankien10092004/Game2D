@@ -1,0 +1,646 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BTL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|e:\\btl\\assets\\game\\code\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|e:\\btl\\assets\\game\\code\\intro\\introvideoplayereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\intro\\introvideoplayereg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\intro\\introvideoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\intro\\introvideoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\vatphamui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\vatphamui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\playeritems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\playeritems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\playercoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\playercoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\coin\\coinpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\coin\\coinpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\coin\\textcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\coin\\textcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\coin\\coinmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\coin\\coinmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\chest\\chestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\chest\\chestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\chest\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\chest\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\nhac\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\nhac\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\keyrebindmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\keyrebindmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\keybindings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\keybindings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\menu\\levermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\levermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\time\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\time\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\shop\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\shop\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\movingplatf\\spikedballtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\movingplatf\\spikedballtrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\movingplatf\\enemylaserauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\movingplatf\\enemylaserauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\movingplatf\\congtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\movingplatf\\congtac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\move\\openmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\move\\openmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\move\\closeobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\move\\closeobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\menu\\upgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\upgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\menu\\textend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\textend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\menu\\finshpoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\menu\\finshpoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\mau\\hpnhanvat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\mau\\hpnhanvat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\mau\\thanhmau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\mau\\thanhmau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\intro\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\intro\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\hero\\heroknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\hero\\heroknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\quaithuongdc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\quaithuongdc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\quai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\quai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\enemythrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\enemythrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\enemyflythower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\enemyflythower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\enemyflyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\enemyflyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\enemyfly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\enemyfly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\enemyataackrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\enemyataackrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\bulletenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\bulletenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\boss2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\boss2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|E:\\BTL\\assets\\game\\code\\enemy\\boss1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\code\\enemy\\boss1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:50:54.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoinPickup.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Coin\\CoinPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Coin\\CoinPickup.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Coin\\CoinPickup.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Coin\\CoinPickup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:12:06.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TextCoin.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Coin\\TextCoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Coin\\TextCoin.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Coin\\TextCoin.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Coin\\TextCoin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:12:19.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerCoins.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\PlayerCoins.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\PlayerCoins.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\PlayerCoins.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\PlayerCoins.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:39:03.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerItems.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\PlayerItems.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\PlayerItems.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\PlayerItems.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\PlayerItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:39:13.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VatPhamUI.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\VatPhamUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\VatPhamUI.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\VatPhamUI.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\VatPhamUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:39:28.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IntroVideoPlayer.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Intro\\IntroVideoPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Intro\\IntroVideoPlayer.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Intro\\IntroVideoPlayer.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Intro\\IntroVideoPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:41:43.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IntroVideoPlayerEG.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Intro\\IntroVideoPlayerEG.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Intro\\IntroVideoPlayerEG.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Intro\\IntroVideoPlayerEG.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Intro\\IntroVideoPlayerEG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:41:50.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoinMenu.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Coin\\CoinMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Coin\\CoinMenu.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Coin\\CoinMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Coin\\CoinMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:11:57.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChestManager.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Chest\\ChestManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Chest\\ChestManager.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Chest\\ChestManager.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Chest\\ChestManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:11:05.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChestController.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Chest\\ChestController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Chest\\ChestController.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Chest\\ChestController.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Chest\\ChestController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAADkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:01:05.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Nhac\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Nhac\\AudioManager.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Nhac\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Nhac\\AudioManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:46:54.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KeyRebindMenu.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\KeyRebindMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\KeyRebindMenu.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\KeyRebindMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\KeyRebindMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:12:09.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KeyBindings.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\KeyBindings.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\KeyBindings.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\KeyBindings.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\KeyBindings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:51:11.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LeverMenu.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\LeverMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:43:17.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FinshPoin.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\FinshPoin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:43:02.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TextEnd.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Menu\\TextEnd.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\TextEnd.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Menu\\TextEnd.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\TextEnd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:43:35.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Closeobj.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\move\\Closeobj.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\move\\Closeobj.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\move\\Closeobj.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\move\\Closeobj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:45:32.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Openmove.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\move\\Openmove.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\move\\Openmove.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\move\\Openmove.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\move\\Openmove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:45:42.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "congtac.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\congtac.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Movingplatf\\congtac.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\congtac.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Movingplatf\\congtac.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:45:54.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnemyLaserAuto.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\EnemyLaserAuto.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Movingplatf\\EnemyLaserAuto.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\EnemyLaserAuto.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Movingplatf\\EnemyLaserAuto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:46:10.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SpikedBallTrap.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\SpikedBallTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Movingplatf\\SpikedBallTrap.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Movingplatf\\SpikedBallTrap.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Movingplatf\\SpikedBallTrap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:46:30.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Shop\\Shop.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Shop\\Shop.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Shop\\Shop.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Shop\\Shop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:47:29.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Time\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Time\\GameTimer.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Time\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Time\\GameTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:48:10.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ThanhMau.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Mau\\ThanhMau.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Mau\\ThanhMau.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Mau\\ThanhMau.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Mau\\ThanhMau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:42:14.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HPNhanVat.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Mau\\HPNhanVat.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Mau\\HPNhanVat.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Mau\\HPNhanVat.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Mau\\HPNhanVat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:42:02.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoadSceneButton.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Intro\\LoadSceneButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Intro\\LoadSceneButton.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Intro\\LoadSceneButton.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Intro\\LoadSceneButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:41:56.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpgradeManager.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Menu\\UpgradeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Menu\\UpgradeManager.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Menu\\UpgradeManager.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Menu\\UpgradeManager.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAABUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:22:52.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QuaithuongDC.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\QuaithuongDC.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\QuaithuongDC.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\QuaithuongDC.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\QuaithuongDC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:37:08.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Quai2.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Quai2.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\Quai2.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Quai2.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\Quai2.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:36:31.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EnemyThrower.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyThrower.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\EnemyThrower.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyThrower.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\EnemyThrower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:35:51.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EnemyFlyThower.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFlyThower.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\EnemyFlyThower.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFlyThower.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\EnemyFlyThower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:35:15.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HeroKnight.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Hero\\HeroKnight.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:47:13.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EnemyFlyAttack.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFlyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\EnemyFlyAttack.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFlyAttack.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\EnemyFlyAttack.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAADAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:34:44.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EnemyFly.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFly.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\EnemyFly.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyFly.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\EnemyFly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:34:17.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EnemyAtaackrun.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyAtaackrun.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\EnemyAtaackrun.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\EnemyAtaackrun.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\EnemyAtaackrun.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAABwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:33:56.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BulletEnemy.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\BulletEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\BulletEnemy.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\BulletEnemy.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\BulletEnemy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:33:20.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Boss2.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Boss2.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\Boss2.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Boss2.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\Boss2.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAACYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:23:58.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Boss1.cs",
+              "DocumentMoniker": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Boss1.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\code\\Enemy\\Boss1.cs",
+              "ToolTip": "E:\\BTL\\Assets\\Game\\code\\Enemy\\Boss1.cs",
+              "RelativeToolTip": "Assets\\Game\\code\\Enemy\\Boss1.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAC0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:12:28.816Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
