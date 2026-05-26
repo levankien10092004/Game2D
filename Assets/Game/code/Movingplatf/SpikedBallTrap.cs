@@ -47,9 +47,7 @@ public class SpikedBallTrap : MonoBehaviour
         float rad1 = currentAngle * Mathf.Deg2Rad;
         float rad2 = (currentAngle+180) * Mathf.Deg2Rad;
 
-        // Công thức chuẩn cho dây treo dọc:
-        // x = sin(angle)
-        // y = -cos(angle)
+
         Vector2 offset1 = new Vector2( Mathf.Sin(rad1),   -Mathf.Cos(rad1) );
         Vector2 offset2 = new Vector2(Mathf.Sin(rad2), -Mathf.Cos(rad2));
 

@@ -58,13 +58,11 @@ public class EnemyAtaackrun : MonoBehaviour
     {
         if (isStunned) return;
 
-        // Tính hướng
         Vector2 dir = isRight ? Vector2.right : Vector2.left;
 
-        // Di chuyển bằng Rigidbody
+        
         rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
 
-        // Kiểm tra khoảng cách để flip
         if (isRight && transform.position.x >= startPos.x + moveDistance)
             Flip();
         else if (!isRight && transform.position.x <= startPos.x - moveDistance)

@@ -58,7 +58,6 @@ public class EnemyFlyThrower : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // ==== LOGIC GIỐNG BOSS2 ====
         if (distance <= attackRange)
         {
             if (Time.time > lastAttackTime + attackCooldown)
@@ -70,7 +69,7 @@ public class EnemyFlyThrower : MonoBehaviour
         }
     }
 
-    // ===== BẮN ĐẠN =====
+    //  BẮN ĐẠN 
     void Shoot()
     {
         isShooting = true;
@@ -83,12 +82,12 @@ public class EnemyFlyThrower : MonoBehaviour
 
     IEnumerator StopShoot()
     {
-        yield return new WaitForSeconds(1.2f); // thời gian animation attack
+        yield return new WaitForSeconds(1.2f);
         isShooting = false;
         animator.SetBool("Attack", false);
     }
 
-    // ===== NHẬN DAMAGE =====
+    //  NHẬN DAMAGE 
     public void TakeDamage(int damPlayer)
     {
         healthnow -= damPlayer;

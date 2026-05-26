@@ -73,7 +73,7 @@ public class EnemyFly : MonoBehaviour
         }
         else
         {
-            // --- QUÁI TUẦN TRA ---
+            // tuần tra
             Vector2 dir = isRight ? Vector2.right : Vector2.left;
             transform.Translate(dir * speed * Time.deltaTime);
 

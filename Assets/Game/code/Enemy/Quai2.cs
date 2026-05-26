@@ -125,7 +125,7 @@ public class Quai2 : MonoBehaviour
         isRange = Vector2.Distance(transform.position, Layer.position) <= atackRanger;
     }
 
-    // 🔥🔥🔥 HÀM TẤN CÔNG GIỐNG PLAYER — HOẠT ĐỘNG 100%
+  
     protected void attack()
     {
         // hướng quái đang nhìn

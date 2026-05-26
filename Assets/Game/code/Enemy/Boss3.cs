@@ -13,7 +13,6 @@ public class Boss3 : MonoBehaviour
     [SerializeField] float attackDistance = 1.6f;
     bool inRange;
 
-    // ================= MÁU (LẤY TỪ BOSS2) =================
     [Header("Máu")]
     public float health = 100;
     public float healthnow;
@@ -65,7 +64,7 @@ public class Boss3 : MonoBehaviour
         HandleAI();
     }
 
-    // ================= KHỞI TẠO MÁU =================
+
     void MauKhoiTao()
     {
         healthnow = health;
@@ -73,7 +72,7 @@ public class Boss3 : MonoBehaviour
             quai.capNhatMau(healthnow, health);
     }
 
-    // ================= AI =================
+
     void HandleAI()
     {
         if (!inRange || isAttacking)
@@ -115,7 +114,7 @@ public class Boss3 : MonoBehaviour
         }
     }
 
-    // ================= SKILL 1 =================
+    // SKILL 1 
     void HandleChaseSlash(float dist)
     {
         if (dist > attackDistance)
@@ -140,7 +139,7 @@ public class Boss3 : MonoBehaviour
         }
     }
 
-    // ================= ATTACK EVENT =================
+    //  ATTACK EVENT 
     void attack()
     {
         Vector2 dir = isRight ? Vector2.right : Vector2.left;
@@ -161,7 +160,7 @@ public class Boss3 : MonoBehaviour
         }
     }
 
-    // ================= SHOOT EVENT =================
+    //  SHOOT EVENT 
     void Shoot()
     {
         GameObject b = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
@@ -173,14 +172,14 @@ public class Boss3 : MonoBehaviour
         bullet.SetTarget(col.bounds.center);
     }
 
-    // ================= END ATTACK =================
+
     public void EndAttack()
     {
         isAttacking = false;
         currentSkill = SkillState.None;
     }
 
-    // ================= MÁU & CHẾT (BOSS2 STYLE) =================
+   
     public void TakeDamage(int damPlayer)
     {
         if (isDead) return;
@@ -207,7 +206,7 @@ public class Boss3 : MonoBehaviour
         victory.gameObject.SetActive(true);
     }
 
-    // ================= SUPPORT =================
+
     void FacePlayer()
     {
         if (player.position.x > transform.position.x && !isRight) Flip();

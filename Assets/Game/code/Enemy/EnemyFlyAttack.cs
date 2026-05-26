@@ -71,10 +71,10 @@ public class EnemyFlyAttack : MonoBehaviour
             Move();
         }
 
-        // Kiểm tra và thực hiện tấn công nếu trong tầm
+
         if (isRange && Time.time > lastAttackTime + attackCooldown)
         {
-            // Quái vật phải nằm trong phạm vi attackDistan và KHÔNG đang quay về
+           
             if (!isReturning && Vector2.Distance(transform.position, Layer.position) <= attackDistan)
             {
                 StartCoroutine(Attack()); 
@@ -86,54 +86,54 @@ public class EnemyFlyAttack : MonoBehaviour
     public void mau()
     {
         healthnow = health;
-        // Giả định HPEnemy có hàm capNhatMau
+
         if (quai != null) quai.capNhatMau(healthnow, health);
     }
 
     protected virtual void Move()
     {
-        // 1. Logic QUAY VỀ SAU TẤN CÔNG (Ưu tiên cao nhất)
+      
         if (isReturning)
         {
             if (animator != null) animator.SetBool("Attack", false);
 
-            // Di chuyển về vị trí đã lưu (dùng transform vì nó đang bay lơ lửng)
+     
             transform.position = Vector3.MoveTowards(transform.position, attackStartPos, chaseSpeed * Time.deltaTime);
 
-            // Kiểm tra nếu đã về đích
+    
             if (Vector3.Distance(transform.position, attackStartPos) < 0.1f)
             {
-                isReturning = false; // Kết thúc quay về
+                isReturning = false; 
             }
             return;
         }
 
-        // 2. Logic ĐUỔI THEO (Bay theo phương ngang)
+ 
         if (isRange)
         {
             if (animator != null)
             {
-                // Đặt animation bay bình thường khi đuổi theo
+                
                 animator.SetBool("Attack", false);
             }
 
-            // Đổi hướng về phía người chơi
+           
             if ((Layer.position.x > transform.position.x && !isRight) ||
                 (Layer.position.x < transform.position.x && isRight))
             {
                 Flip();
             }
 
-            // Bay theo phương ngang: Chỉ theo X của Player, giữ nguyên Y hiện tại
+           
             Vector3 targetPos = new Vector3(Layer.position.x, transform.position.y, transform.position.z);
 
             transform.position = Vector3.MoveTowards(transform.position, targetPos, chaseSpeed * Time.deltaTime);
 
         }
-        // 3. Logic TUẦN TRA
+        //  TUẦN TRA
         else
         {
-            // QUÁI TUẦN TRA
+            
             if (animator != null)
             {
                 animator.SetBool("Attack", false);
@@ -149,7 +149,7 @@ public class EnemyFlyAttack : MonoBehaviour
         }
     }
 
-    // Hàm Tấn công (Coroutine)
+  
     protected IEnumerator Attack()
     {
         attackStartPos = transform.position;
@@ -159,23 +159,23 @@ public class EnemyFlyAttack : MonoBehaviour
 
         if (animator != null)
         {
-            // Đảm bảo animation luôn chạy khi tấn công
+        
             animator.SetBool("Attack", true);
         }
 
         // --- LAO VÀO NHÂN VẬT ---
-        // Tính toán hướng lao tới
+      
         Vector2 direction = (Layer.position - transform.position).normalized;
         // Gán vận tốc để bổ nhào
         rb.velocity = direction * pounceForce;
 
-        // Thời gian animation bổ nhào
+
         yield return new WaitForSeconds(0.8f);
 
-        // --- KẾT THÚC LAO VÀO ---
-        rb.velocity = Vector2.zero; // Dừng chuyển động ngay lập tức
+        
+        rb.velocity = Vector2.zero; 
 
-        // Nếu Coroutine chạy hết mà không có va chạm:
+ 
         isAttacking = false;
 
         if (animator != null)
@@ -183,7 +183,7 @@ public class EnemyFlyAttack : MonoBehaviour
             animator.SetBool("Attack", false);
         }
 
-        // Bắt đầu quá trình quay về vị trí tấn công
+
         isReturning = true;
     }
 
@@ -235,21 +235,20 @@ public class EnemyFlyAttack : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            // CHỈ XỬ LÝ NẾU ĐANG TRONG TRẠNG THÁI BỔ NHÀO (Attack)
             if (isAttacking)
             {
-                // 1. Ngừng Coroutine và dừng bổ nhào
+                // dừng bổ nhào
                 StopCoroutine("Attack");
-                rb.velocity = Vector2.zero; // Dừng velocity khi va chạm
+                rb.velocity = Vector2.zero; 
 
-                // 2. Gây sát thương (Giả định Layer có component HeroKnight)
+                // 2. Gây sát thương 
                 HeroKnight hero = Layer.GetComponent<HeroKnight>();
                 if (hero != null)
                 {
                     hero.TakeDamage((int)collisionDamage);
                 }
 
-                // 3. Đặt cờ trạng thái
+                // trạng thái
                 isAttacking = false;
                 isReturning = true; // Kích hoạt trạng thái quay về
 
@@ -291,7 +290,7 @@ public class EnemyFlyAttack : MonoBehaviour
 
     }
 
-    // Hiển thị phạm vi trong Editor
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;

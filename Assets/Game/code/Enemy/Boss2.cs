@@ -72,7 +72,6 @@ public class Boss2 : MonoBehaviour
         if (!isAttacking && !isShooting)
             Move();
 
-        // ----- QUYẾT ĐỊNH TẤN CÔNG -----
         if (isRange && !isAttacking && !isReturning)
         {
             float currentTime = Time.time;
@@ -81,7 +80,6 @@ public class Boss2 : MonoBehaviour
             {
                 float dist = Vector2.Distance(transform.position, Layer.position);
 
-                // ★ Ưu tiên tấn công bổ nhào nếu player ở gần
                 if (dist <= attackDistance)
                 {
                     animator.SetBool("Attack1", true);
@@ -92,7 +90,7 @@ public class Boss2 : MonoBehaviour
                     return;
                 }
 
-                // ★ Player ở xa → BẮN
+                
                 animator.SetBool("Attack2", true);
                 animator.SetBool("Attack1", false);
 
@@ -118,7 +116,6 @@ public class Boss2 : MonoBehaviour
         {
             transform.position = Vector3.MoveTowards(transform.position, attackStartPos, chaseSpeed * Time.deltaTime);
 
-            // Về tới vị trí ban đầu
             if (Vector3.Distance(transform.position, attackStartPos) < 0.1f)
             {
                 isReturning = false;
@@ -141,7 +138,6 @@ public class Boss2 : MonoBehaviour
         }
         else
         {
-            // ▬▬▬ 3. TUẦN TRA ▬▬▬
             Vector2 dir = isRight ? Vector2.right : Vector2.left;
             transform.Translate(dir * speed * Time.deltaTime);
 
@@ -152,7 +148,7 @@ public class Boss2 : MonoBehaviour
         }
     }
 
-    // ▬▬▬ BỔ NHÀO ▬▬▬
+    //  BỔ NHÀO
     protected IEnumerator Attack()
     {
         attackStartPos = transform.position;

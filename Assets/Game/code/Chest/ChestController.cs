@@ -3,8 +3,9 @@
 public class ChestController : MonoBehaviour
 {
     [SerializeField]private Animator animator;
-    [SerializeField]private GameObject coinPrefab;      // Prefab đồng xu
+    [SerializeField]private GameObject coinPrefab;      // Prefab đồ
     [SerializeField] private GameObject healPrefab;      // ⭐ Prefab máu
+
     [SerializeField] private float healDropRate = 0.2f;
     [SerializeField] private Transform spawnPoint;       // Điểm spawn
     [SerializeField] private int minCoins = 5;

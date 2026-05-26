@@ -11,7 +11,7 @@ public class Thangmay : MonoBehaviour
     private bool moveToEnd = false;
     private bool moveToStart = false;
 
-    // ===== GIỮ PLAYER =====
+    // giu player
     private Transform player;
     private bool removeParent = false;
 
@@ -44,7 +44,7 @@ public class Thangmay : MonoBehaviour
         }
     }
 
-    // ===== TÁCH PLAYER Ở FRAME AN TOÀN =====
+    // tách player
     private void LateUpdate()
     {
         if (removeParent && player != null)
@@ -55,7 +55,7 @@ public class Thangmay : MonoBehaviour
         }
     }
 
-    // ===== HÀM GỌI TỪ CÔNG TẮC =====
+    //  HÀM GỌI TỪ CÔNG TẮC 
     public void SwitchToEnd()
     {
         moveToEnd = true;
@@ -74,7 +74,7 @@ public class Thangmay : MonoBehaviour
         moveToStart = false;
     }
 
-    // ===== TRIGGER =====
+    //  TRIGGER \
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

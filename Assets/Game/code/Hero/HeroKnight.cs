@@ -81,39 +81,36 @@ public class HeroKnight : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         ManaRegen();
-        // Increase timer that controls attack combo
+    
         m_timeSinceAttack += Time.deltaTime;
 
-        // Increase timer that checks roll duration
         if (m_rolling)
             m_rollCurrentTime += Time.deltaTime;
 
-        // Disable rolling if timer extends duration
         if (m_rollCurrentTime > m_rollDuration)
             m_rolling = false;
 
-        //Check if character just landed on the ground
+       
         if (!m_grounded && m_groundSensor.State())
         {
             m_grounded = true;
             m_animator.SetBool("Grounded", m_grounded);
         }
 
-        //Check if character just started falling
+        
         if (m_grounded && !m_groundSensor.State())
         {
             m_grounded = false;
             m_animator.SetBool("Grounded", m_grounded);
         }
 
-        // -- Handle input and movement --
         float inputX = Input.GetAxis("Horizontal");
 
-        // Swap direction of sprite depending on walk direction
+       
         if (inputX > 0)
         {
             GetComponent<SpriteRenderer>().flipX = false;

@@ -17,18 +17,17 @@ public class BulletEnemy : MonoBehaviour
     private Vector3 targetPos;
     private float t;
 
-    // ===================== GỌI KHI BẮN =====================
     public void SetTarget(Vector3 target)
     {
         startPos = transform.position;
         t = 0f;
 
-        // ===== XOAY NGAY LÚC BẮN (NGẮM PLAYER) =====
+        //  XOAY NGAY LÚC BẮN 
         Vector3 shootDir = (target - startPos).normalized;
         float startAngle = Mathf.Atan2(shootDir.y, shootDir.x) * Mathf.Rad2Deg-90f;
         transform.rotation = Quaternion.Euler(0, 0, startAngle);
 
-        // ===== TÌM MẶT ĐẤT DƯỚI PLAYER =====
+        //  TÌM MẶT ĐẤT DƯỚI PLAYER 
         RaycastHit2D hit = Physics2D.Raycast( new Vector2(target.x, target.y + 5f),Vector2.down, 20f, groundLayer );
 
         if (hit.collider != null)
@@ -39,13 +38,13 @@ public class BulletEnemy : MonoBehaviour
         Destroy(gameObject, lifeTime);
     }
 
-    // ===================== DI CHUYỂN + XOAY =====================
+    //  DI CHUYỂN + XOAY 
     private void Update()
     {
         t += Time.deltaTime * speed;
         t = Mathf.Clamp01(t);
 
-        // Quỹ đạo cong (Bezier)
+       
         Vector3 midPoint = (startPos + targetPos) * 0.5f;
         midPoint.y += arcHeight;
 
@@ -53,7 +52,7 @@ public class BulletEnemy : MonoBehaviour
         Vector3 b = Vector3.Lerp(midPoint, targetPos, t);
         Vector3 newPos = Vector3.Lerp(a, b, t);
 
-        // ===== XOAY THEO HƯỚNG BAY (MƯỢT & THẬT) =====
+        //  XOAY THEO HƯỚNG BAY 
         Vector3 dir = newPos - transform.position;
         if (dir.sqrMagnitude > 0.0001f)
         {
@@ -67,7 +66,7 @@ public class BulletEnemy : MonoBehaviour
             Destroy(gameObject);
     }
 
-    // ===================== VA CHẠM =====================
+    //  VA CHẠM 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

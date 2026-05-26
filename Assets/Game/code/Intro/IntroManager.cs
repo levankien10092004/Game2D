@@ -10,7 +10,7 @@ public class IntroManager : MonoBehaviour
         {
             SceneManager.LoadScene("MainMenu");
         }
-        // Nếu chưa → ở lại scene Intro
+       
     }
 
     // Gọi khi intro kết thúc

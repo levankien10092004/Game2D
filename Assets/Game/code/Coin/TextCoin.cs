@@ -7,7 +7,7 @@ public class TextCoin : MonoBehaviour
 {
     public static TextCoin Instance;
 
-    [SerializeField] public TextMeshProUGUI coinText; // kéo text vào đây
+    [SerializeField] public TextMeshProUGUI coinText; 
 
     private void Awake()
     {

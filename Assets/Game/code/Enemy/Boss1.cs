@@ -128,13 +128,10 @@ public class Boss1 : MonoBehaviour
         isRange = Vector2.Distance(transform.position, Layer.position) <= atackRanger;
     }
 
-    // 🔥🔥🔥 HÀM TẤN CÔNG GIỐNG PLAYER — HOẠT ĐỘNG 100%
     protected void attack()
     {
-        // hướng quái đang nhìn
         Vector2 attackDir = isRight ? Vector2.right : Vector2.left;
 
-        // quét player trong vùng tròn
         Collider2D[] players = Physics2D.OverlapCircleAll(transform.position, attackRadius, attackLayer);
 
         foreach (Collider2D p in players)
@@ -142,7 +139,6 @@ public class Boss1 : MonoBehaviour
             Vector2 dir = (p.transform.position - transform.position).normalized;
             float angle = Vector2.Angle(attackDir, dir);
 
-            // player nằm trong góc phía trước (45 độ)
             if (angle < 45f)
             {
                 HeroKnight hero = p.GetComponent<HeroKnight>();
